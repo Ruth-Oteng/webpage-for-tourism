@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: cyan;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar ul{
+  list-style: none;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+.navbar li{
+  
+}
