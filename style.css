@@ -75,11 +75,15 @@ body{
 }
 .section{
   background-color:grey;
-}
-.section img{
-  height: 250px;
   display: flex;
   justify-content: space-between;
+  padding: 40px;
+  width: 60%;
+  margin: 10rem auto 0 auto;
+}
+.section img{
+  height: 150px;
+  position:relative;
 }
 .section h2{
   color: black;
@@ -91,6 +95,9 @@ body{
 }
 .section p{
   color: white;
-  
-  
+  margin-right: 15px; 
+}
+footer{
+  text-align: center;
+  font-size: 20px;
 }
