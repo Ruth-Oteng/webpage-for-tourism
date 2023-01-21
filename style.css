@@ -78,7 +78,19 @@ body{
 }
 .section img{
   height: 250px;
+  display: flex;
+  justify-content: space-between;
 }
-.section h1{
+.section h2{
+  color: black;
+  margin: 0;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.section p{
+  color: white;
+  
   
 }
