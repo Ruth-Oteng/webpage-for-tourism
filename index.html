@@ -1,35 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Business Solutions</title>
-	<link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+.navbar {
+	margin-bottom: 0;
+	background-color: #9e8b85;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+  
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+  
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #9e8b85 !important;
+	background-color: #fff !important;
+}
+  
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+.bg-4 { 
+    background-color: rgb(226, 59, 137); 
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(226, 59, 137);
+}
+.jumbotron{
+    background: url('safari.jpeg') top center;
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.jumbotron h2{
+    text-align: center;
+}
+.jumbotron p{
+    text-align: center;
+}
+
+#about {
+	padding: 20px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
+	background: rgb(226, 59, 137); /* Old browsers */
+	background: -moz-linear-gradient(top, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 100%); 
+	background: -webkit-linear-gradient(top, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 100%); 
+	background: linear-gradient(to bottom, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 0%, rgb(226, 59, 137) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#54d0dd', GradientType=0 ); /* IE6-9 */
+}
+#about .about-text {
+	margin-left: 10px;
+}
+#about img {
+	float: right;
+}
+#about p {
+	margin-bottom: 30px;
+	line-height: 21px;
+}
+
+</style>
 </head>
-<body>
-	<div class="banner"> 
-        <div class="navbar">
-            <img scr="../logo.jpg" class="logo"> 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Associates</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Rates</a></li>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Diversify Africa</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="try.html">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#news">NEWS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
-
+          </div>
         </div>
-        <div class="content">
-            <h1>BUSINESSES IN AFRICA</h1>
-            <p>The most central continent in the world, Africa is the perfect hub for reaching the corners of the world.<br> Incidentally, it’s also the most profitable region in the world, making it a top option for your next business venture.
-                <br>Every business organiation in Africa is supposed to sign up for the business conference</p>
-                <div>
-                    <button type="button"><span></span>SignUp</button>
-                    <button type="button"><span></span>Login</button>
-                </div>
-
+      </nav>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-offset-4">
+                <img src="africa.png" class="img-circle" alt="africa" width="250" height="250">
+            </div>
+            <div class="col-sm-8 col-md-offset-2">
+                <h2>Events From Past and Recent Ocassions</h2> 
+                <p>There are many variations of passages</p>
+            </div>
         </div>
-		
-	</div>
- 
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>About</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-sm-4"> <img src="images.jpeg" class="img-circle" alt="image" width="350" height="350" > </div>
+        <div class="col-sm-12 col-sm-8">
+          <div class="about-text">
+            <p>The most revered of Africa’s safari destinations, Kenya is located in East Africa 
+              and boasts the Masai Mara National Park, renowned for its abundant wildlife and annual Great Migration.</p>
+            <p> </p>
+            <p>It is a country brimming with romance, thrill and adventure –
+               nothing says “classic safari” quite like a Kenyan safari.</p>
+            <p> </p>
+            <p>A Kenyan safari not only boasts spectacular natural beauty in one of the most unspoiled places on earth,
+               but it also brings you up close and personal with Africa’s most sought-after wildlife.</p>
+            <p> </p> 
+            <p>&Beyond ensures that you experience a luxury Kenyan Safari & Tour like no other – no matter what your preference,
+               be it a family-friendly holiday, romantic honeymoon or photographic safari that draws you to the African continent.</p> 
+            <p> </p> 
+            <a href="event.html" class="btn btn-default btn-lg page-scroll">EVENTS</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div id="news" class="container-fluid bg-grey">
+<h2 class="text-center">NEWS</h2>  
+<div class="row">
+<div class="col-sm-4">
 
+  <h3>Future of South Sudan cannot lie in refugee camps</h3>
+  <p>Pope Francis on Saturday met children of South Sudan who have been displaced by conflict in the region. The pope told children that they would build a better future for South Sudan by replacing ethnic hatred with forgiveness. The pope was visiting South Sudan with Archbishop of Canterbury Justin Welby and Church of Scotland Moderator Iain Greenshields,
+     in what was cited as an unprecedented joint "pilgrimage of peace".</p>
+  <p>There are 2.2 million internally displaced people in South Sudan, out of a total population of about 11.6 million. Another 2.3 million have fled the country as refugees, according to the United Nations. Extreme poverty and hunger are prevalent across the country. About two-thirds of the country's 
+    population need humanitarian assistance as a result of conflict as well as three years of catastrophic floo</p>
+</div>
+<div class="col-sm-4">
+  <h3>Kenya declares war against millions of birds. Here's why</h3>
+  <p>Kenya's government began to kill up to 6 million red-billed quelea birds, world's most populous bird species which are also known as 'feathered locusts'. The birds can form nomadic super-colonies of up to 30 million,
+     feeding on crops such as wheat, barley, rice, sunflowers and cor</p>
+  <p>The Horn of Africa -- the eastern side of the African continent consisting of Somalia, Ethiopia, Eritrea, Djibouti, Sudan, Kenya and South Sudan -- is facing its longest and most severe drought on record, threatening millions of people with starvation. The continuing drought has reduced the amount of native grass, who seeds are main food source of the quelea birds. Following this,
+     reports have emerged saying that the birds are increasingly invading grain fields.</p>
+</div>
+<div class="col-sm-4">
+  <h3>Tech business flourishing in Ghana</h3>        
+  <p>The local component of MTN’s ownership was 23.7 percent at end of the year; the same as first-quarter 2022.
+    In May of 2022, the company’s Group Chief Executive Officer (CEO), Ralph Mupita, expressed optimism 
+    that the target would be met – citing a desire to involve more Ghanaians in the telecommunication firm’s success.</p>
+  <p>“We have committed as the MTN Group to further localise and have more Ghanaians owning the shares of MTN Ghana and we want to get to 30 percent, which is the target we are committed to. We have made progress; 
+    we are now at precisely 23.7 percent, so we have another 6.3 percent of shares to localise,” he said at the time.</p>
+</div>
+</div>
+</div>
 
+<div id="contact" class="container-fluid bg-grey">
+<h2 class="text-center">CONTACT</h2>
+<div class="row">
+  <div class="col-sm-5">
+    <p>Contact us and we'll get back to you within 24 hours.</p>
+    <p><span class="glyphicon glyphicon-map-marker"></span> GHANA, Accra</p>
+    <p><span class="glyphicon glyphicon-phone"></span> +233 264359532</p>
+    <p><span class="glyphicon glyphicon-envelope"></span> ruthoteng12@gmail.com.com</p>
+  </div>
+  <div class="col-sm-7">
+    <div class="row">
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+      </div>
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+      </div>
+    </div>
+    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <button class="btn btn-default pull-right" type="submit">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+</footer>
 </body>
 </html>
